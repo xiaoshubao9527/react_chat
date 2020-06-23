@@ -1,0 +1,37 @@
+.chat {
+    padding-bottom: 60px;
+    .content {
+        .left-chat,.right-chat {
+            padding: 0 20px;
+            height: 80px;
+            border-bottom: 2px solid #cccccc;
+            position: relative;
+            div{
+                position: absolute;
+                display: flex;
+                height: 100%;
+                align-items: center;
+            }
+            p{
+                margin: 0 6px;
+                align-items: center;
+            }
+        }
+        .left-chat {
+            div{
+                left: 0;
+            }
+        }
+        .right-chat {
+            div{
+                right: 0;
+            }
+        }
+    }
+    .send-msg {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 13.333333333vw; // 设计稿750px = 100vw  100px /（750px / 100vw) = 13.333333vw  100px 占了13.3333vw 
+}
